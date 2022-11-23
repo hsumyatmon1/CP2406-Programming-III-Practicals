@@ -1,4 +1,4 @@
-public class First
+public class First_Prac3
 {
    public static void main(String[] args)
    {
