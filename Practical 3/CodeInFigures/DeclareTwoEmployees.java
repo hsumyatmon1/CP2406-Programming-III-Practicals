@@ -2,8 +2,8 @@ public class DeclareTwoEmployees
 {
    public static void main(String[] args)
    {
-      Employee clerk = new Employee();
-      Employee driver = new Employee();
+      Employee_Prac3 clerk = new Employee_Prac3();
+      Employee_Prac3 driver = new Employee_Prac3();
       clerk.setEmpNum(345);
       driver.setEmpNum(567);
       System.out.println("The clerk's number is " +

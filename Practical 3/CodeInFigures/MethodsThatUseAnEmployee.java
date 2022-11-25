@@ -3,13 +3,13 @@ class MethodsThatUseAnEmployee
 {
    public static void main (String args[])
    {
-     Employee myEmployee;
+     Employee_Prac3 myEmployee;
      myEmployee = getEmployeeData();
      displayEmployee(myEmployee);
    }
-   public static Employee getEmployeeData()
+   public static Employee_Prac3 getEmployeeData()
    {
-      Employee tempEmp = new Employee();
+      Employee_Prac3 tempEmp = new Employee_Prac3();
       int id;
       double sal;
       Scanner input = new Scanner(System.in);
@@ -21,7 +21,7 @@ class MethodsThatUseAnEmployee
       tempEmp.setEmpSalary(sal);
       return tempEmp;
    }
-   public static void displayEmployee(Employee anEmp)
+   public static void displayEmployee(Employee_Prac3 anEmp)
    {
        System.out.println("\nEmployee #" + anEmp.getEmpNum() +
           " Salary is " + anEmp.getEmpSalary());
