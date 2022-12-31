@@ -1,15 +1,15 @@
 import java.util.Scanner;
 class MethodsThatUseAnEmployee
 {
-   public static void main (String args[])
+   public static void main (String[] args)
    {
-     Employee_Prac3 myEmployee;
+     Employee_Prac3_Chp03 myEmployee;
      myEmployee = getEmployeeData();
      displayEmployee(myEmployee);
    }
-   public static Employee_Prac3 getEmployeeData()
+   public static Employee_Prac3_Chp03 getEmployeeData()
    {
-      Employee_Prac3 tempEmp = new Employee_Prac3();
+      Employee_Prac3_Chp03 tempEmp = new Employee_Prac3_Chp03();
       int id;
       double sal;
       Scanner input = new Scanner(System.in);
@@ -21,9 +21,9 @@ class MethodsThatUseAnEmployee
       tempEmp.setEmpSalary(sal);
       return tempEmp;
    }
-   public static void displayEmployee(Employee_Prac3 anEmp)
+   public static void displayEmployee(Employee_Prac3_Chp03 anEmp)
    {
-       System.out.println("\nEmployee #" + anEmp.getEmpNum() +
+       System.out.println("\nEmployeeChp10 #" + anEmp.getEmpNum() +
           " Salary is " + anEmp.getEmpSalary());
    }
 }

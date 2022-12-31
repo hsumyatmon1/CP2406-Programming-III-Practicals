@@ -1,4 +1,4 @@
-public class Employee_Prac3
+public class Employee_Prac3_Chp03
 {
    private int empNum;
    private String empLastName;
